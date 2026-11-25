@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 192" width="580" height="192" role="img" aria-labelledby="ct cd">
+  <title id="ct">aquarius-gps-connect-linux</title>
+  <desc id="cd">Debian 13 · Allwinner A10 (sun4i) · MTC4553 — MicroSD dual-boot RetroArch handheld &amp; XFCE tablet on a car GPS.</desc>
+  <rect width="580" height="192" rx="14" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1.5"/>
+  <rect x="0" y="0" width="580" height="4" rx="2" fill="#C25934"/>
+
+  <!-- Custom emblem -->
+  <g transform="translate(26, 26)">
+    <rect width="46" height="46" rx="11" fill="#EEF2F7" stroke="#C25934" stroke-opacity="0.5"/>
+    <rect x="9" y="14" width="28" height="18" rx="4" fill="none" stroke="#C25934" stroke-width="2"/><path d="M16 20 V26 M13 23 H19" stroke="#1F2328" stroke-width="1.8" stroke-linecap="round"/><circle cx="29" cy="21" r="1.8" fill="#C25934"/><circle cx="32" cy="25" r="1.8" fill="#6652E5"/>
+  </g>
+
+  <text x="88" y="48" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#1F2328">aquarius-gps-connect-linux</text>
+  <text x="88" y="70" font-family="ui-monospace, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#C25934">Debian 13 · Allwinner A10 (sun4i) · MTC4553</text>
+  <text x="28" y="106" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14.5" fill="#59636E">MicroSD dual-boot RetroArch handheld &amp; XFCE tablet on a car GPS.</text>
+  <text x="28" y="128" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" fill="#6E7781">Click to open repository</text>
+
+  <rect x="28" y="146" width="92" height="26" rx="13" fill="#EAEFF5" stroke="#D0D7DE"/><text x="74.1" y="163" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#1F2328">Debian 13</text><rect x="128" y="146" width="123" height="26" rx="13" fill="#EAEFF5" stroke="#D0D7DE"/><text x="189.9" y="163" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#1F2328">Allwinner A10</text><rect x="260" y="146" width="92" height="26" rx="13" fill="#EAEFF5" stroke="#D0D7DE"/><text x="305.7" y="163" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#1F2328">RetroArch</text><rect x="360" y="146" width="69" height="26" rx="13" fill="#EAEFF5" stroke="#D0D7DE"/><text x="394.2" y="163" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#1F2328">U-Boot</text>
+</svg>

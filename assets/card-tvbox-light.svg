@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 192" width="580" height="192" role="img" aria-labelledby="ct cd">
+  <title id="ct">tvbox-rk3228a-armbian</title>
+  <desc id="cd">Armbian · Rockchip RK3228A · R29_5G_LP3 — SD auto-installer to eMMC, 4K HDMI fix, DDR 660 MHz, Pi-hole + Unbound DoT.</desc>
+  <rect width="580" height="192" rx="14" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1.5"/>
+  <rect x="0" y="0" width="580" height="4" rx="2" fill="#1A7F37"/>
+
+  <!-- Custom emblem -->
+  <g transform="translate(26, 26)">
+    <rect width="46" height="46" rx="11" fill="#EEF2F7" stroke="#1A7F37" stroke-opacity="0.5"/>
+    <rect x="13" y="13" width="20" height="20" rx="4" fill="none" stroke="#1A7F37" stroke-width="2"/><rect x="19" y="19" width="8" height="8" rx="1.5" fill="#1A7F37"/><path d="M18 9 V13 M28 9 V13 M18 33 V37 M28 33 V37 M9 18 H13 M9 28 H13 M33 18 H37 M33 28 H37" stroke="#59636E" stroke-width="1.8" stroke-linecap="round"/>
+  </g>
+
+  <text x="88" y="48" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#1F2328">tvbox-rk3228a-armbian</text>
+  <text x="88" y="70" font-family="ui-monospace, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#1A7F37">Armbian · Rockchip RK3228A · R29_5G_LP3</text>
+  <text x="28" y="106" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14.5" fill="#59636E">SD auto-installer to eMMC, 4K HDMI fix, DDR 660 MHz, Pi-hole + Unbound DoT.</text>
+  <text x="28" y="128" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" fill="#6E7781">Click to open repository</text>
+
+  <rect x="28" y="146" width="77" height="26" rx="13" fill="#EAEFF5" stroke="#D0D7DE"/><text x="66.3" y="163" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#1F2328">Armbian</text><rect x="113" y="146" width="77" height="26" rx="13" fill="#EAEFF5" stroke="#D0D7DE"/><text x="150.9" y="163" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#1F2328">RK3228A</text><rect x="197" y="146" width="77" height="26" rx="13" fill="#EAEFF5" stroke="#D0D7DE"/><text x="235.5" y="163" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#1F2328">Pi-hole</text><rect x="282" y="146" width="77" height="26" rx="13" fill="#EAEFF5" stroke="#D0D7DE"/><text x="320.1" y="163" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#1F2328">GPL-2.0</text>
+</svg>

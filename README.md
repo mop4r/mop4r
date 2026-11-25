@@ -1,17 +1,77 @@
-# Hi, I'm mop4r
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+    <img alt="mop4r — Embedded Linux ports, hardware reverse engineering and local AI tooling" src="assets/hero-dark.svg" width="100%">
+  </picture>
+</p>
 
-Open-source tools, embedded Linux ports, and hardware experiments.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/terminal-light.svg">
+    <img alt="mop4r live GitHub telemetry, language distribution and 12-month contribution activity" src="assets/terminal-dark.svg" width="100%">
+  </picture>
+</p>
 
 ## Featured Projects
 
-### [TagTeam](https://github.com/mop4r/tagteam) · [Site](https://mop4r.github.io/tagteam/)
-One conversation across **Claude Code**, **Gemini (Antigravity app & `agy` CLI)**, and **Grok CLI**. Two-way native session sync through hooks, shared `CLAUDE.md`/skills/plugins/MCP servers, and automatic 5-line handoff notes when a usage limit approaches 95%. Pure Python standard library, 100% local.
+<table>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/mop4r/tagteam">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-tagteam-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="assets/card-tagteam-light.svg">
+          <img alt="TagTeam — Sync Claude Code, Gemini Antigravity and Grok CLI conversations" src="assets/card-tagteam-dark.svg" width="100%">
+        </picture>
+      </a>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/mop4r/tvbox-rk3228a-armbian">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-tvbox-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="assets/card-tvbox-light.svg">
+          <img alt="tvbox-rk3228a-armbian — Armbian on Rockchip RK3228A TV box with Pi-hole and Unbound DoT" src="assets/card-tvbox-dark.svg" width="100%">
+        </picture>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/mop4r/aquarius-gps-connect-linux">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-aquarius-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="assets/card-aquarius-light.svg">
+          <img alt="aquarius-gps-connect-linux — Debian 13 RetroArch handheld and XFCE tablet on Allwinner A10 GPS" src="assets/card-aquarius-dark.svg" width="100%">
+        </picture>
+      </a>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/mop4r/RarSeeker">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-rarseeker-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="assets/card-rarseeker-light.svg">
+          <img alt="RarSeeker — Python SQLite browser for the archived RARBG database" src="assets/card-rarseeker-dark.svg" width="100%">
+        </picture>
+      </a>
+    </td>
+  </tr>
+</table>
 
-### [tvbox-rk3228a-armbian](https://github.com/mop4r/tvbox-rk3228a-armbian)
-**Armbian (Debian Trixie, kernel 6.18)** on a generic **Rockchip RK3228A / RK3229 TV box** (MXQ Pro 4K 5G, board `R29_5G_LP3 V3.0`): SD card auto-installer to eMMC (no maskrom needed), 4K HDMI black-screen fix, safe **DDR 660 MHz** with automatic fallback, crash diagnostics (`ramoops`/watchdog), and **Pi-hole + Unbound (DNS over TLS) + Tailscale** home server.
+| Project | Stack & Hardware | Links |
+|---|---|---|
+| [**TagTeam**](https://github.com/mop4r/tagteam) | Python (zero deps) · Claude Code · Gemini (Antigravity / `agy`) · Grok CLI | [Repo](https://github.com/mop4r/tagteam) · [Site](https://mop4r.github.io/tagteam/) · [Release](https://github.com/mop4r/tagteam/releases) |
+| [**tvbox-rk3228a-armbian**](https://github.com/mop4r/tvbox-rk3228a-armbian) | Armbian · Debian Trixie · Rockchip RK3228A (`R29_5G_LP3`) · Pi-hole + Unbound DoT | [Repo](https://github.com/mop4r/tvbox-rk3228a-armbian) · [Releases](https://github.com/mop4r/tvbox-rk3228a-armbian/releases) |
+| [**aquarius-gps-connect-linux**](https://github.com/mop4r/aquarius-gps-connect-linux) | Debian 13 (`armhf`) · Allwinner A10 (`sun4i`, `MTC4553`) · U-Boot · RetroArch · XFCE | [Repo](https://github.com/mop4r/aquarius-gps-connect-linux) · [Releases](https://github.com/mop4r/aquarius-gps-connect-linux/releases) |
+| [**RarSeeker**](https://github.com/mop4r/RarSeeker) | Python · SQLite · Local torrent archive search | [Repo](https://github.com/mop4r/RarSeeker) |
 
-### [aquarius-gps-connect-linux](https://github.com/mop4r/aquarius-gps-connect-linux)
-**Debian 13 (Trixie, armhf)** booting from microSD on an **Aquarius Connect 5.0** car GPS (**Allwinner A10 / sun4i**, board `MTC4553`, Mali-400, 800×480 touchscreen, RTL8188CUS Wi-Fi) without touching stock Android/iGO NAND. Turns the device into a **RetroArch** retro-gaming handheld (`cage`/Wayland) and **XFCE** touchscreen tablet with mainline U-Boot, custom DTS, safe 1104 MHz turbo, and `rtl8xxxu` DKMS Wi-Fi.
+## Contribution Activity
 
-### [RarSeeker](https://github.com/mop4r/RarSeeker)
-Python utility for browsing and searching the archived RARBG SQLite database by name, category, size, resolution, or IMDb ID.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/snake-light.svg">
+    <img alt="GitHub contribution grid snake animation for mop4r" src="assets/snake-dark.svg" width="100%">
+  </picture>
+</p>

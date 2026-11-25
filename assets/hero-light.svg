@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-labelledby="ht hd">
+  <title id="ht">mop4r — Embedded Linux, Hardware &amp; AI Tooling</title>
+  <desc id="hd">Custom profile header for mop4r highlighting embedded Linux ports, hardware hacking and local AI agent tooling.</desc>
+  <defs>
+    <linearGradient id="hbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8FAFD"/>
+      <stop offset="100%" stop-color="#EDF2FA"/>
+    </linearGradient>
+    <radialGradient id="hglow1" cx="16%" cy="50%" r="42%">
+      <stop offset="0%" stop-color="#C25934" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#C25934" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hglow2" cx="85%" cy="22%" r="46%">
+      <stop offset="0%" stop-color="#6652E5" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#6652E5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hword" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C25934"/>
+      <stop offset="52%" stop-color="#5D46E2"/>
+      <stop offset="100%" stop-color="#0969DA"/>
+    </linearGradient>
+    <pattern id="hdots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.1" fill="#1F2328" opacity="0.07"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="280" rx="20" fill="url(#hbg)" stroke="#D0D7DE" stroke-width="1.5"/>
+  <rect width="1200" height="280" rx="20" fill="url(#hdots)"/>
+  <rect width="1200" height="280" rx="20" fill="url(#hglow1)"/>
+  <rect width="1200" height="280" rx="20" fill="url(#hglow2)"/>
+
+  <!-- Custom PCB / SoC + AI Relay artwork (visible at t=0) -->
+  <g transform="translate(56, 36)">
+    <!-- Circuit traces -->
+    <g fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M22 44 H62 L76 58" stroke="#C25934" opacity="0.85"/>
+      <path d="M12 104 H58" stroke="#6652E5" opacity="0.85"/>
+      <path d="M22 164 H62 L76 150" stroke="#1A7F37" opacity="0.85"/>
+      <path d="M196 58 L210 44 H250" stroke="#0969DA" opacity="0.85"/>
+      <path d="M214 104 H260" stroke="#6652E5" opacity="0.85"/>
+      <path d="M196 150 L210 164 H250" stroke="#C25934" opacity="0.85"/>
+      <path d="M136 10 V36" stroke="#1A7F37" opacity="0.8"/>
+      <path d="M136 172 V198" stroke="#0969DA" opacity="0.8"/>
+    </g>
+    <!-- Circuit pads -->
+    <g>
+      <circle cx="22" cy="44" r="4.5" fill="#C25934"/>
+      <circle cx="12" cy="104" r="4.5" fill="#6652E5"/>
+      <circle cx="22" cy="164" r="4.5" fill="#1A7F37"/>
+      <circle cx="250" cy="44" r="4.5" fill="#0969DA"/>
+      <circle cx="260" cy="104" r="4.5" fill="#6652E5"/>
+      <circle cx="250" cy="164" r="4.5" fill="#C25934"/>
+      <circle cx="136" cy="10" r="4" fill="#1A7F37"/>
+      <circle cx="136" cy="198" r="4" fill="#0969DA"/>
+    </g>
+    <!-- SoC Package -->
+    <rect x="58" y="36" width="156" height="136" rx="18" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="2"/>
+    <rect x="74" y="52" width="124" height="104" rx="11" fill="#EEF2F7" stroke="#6652E5" stroke-opacity="0.45" stroke-width="1.5"/>
+    <!-- Oscilloscope waveform inside die (always visible, gentle pulse) -->
+    <path d="M88 112 L104 112 L113 84 L126 130 L139 74 L152 122 L162 102 L184 102"
+          fill="none" stroke="#1A7F37" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <animate attributeName="opacity" values="1;0.65;1" dur="3.6s" repeatCount="indefinite"/>
+    </path>
+    <text x="136" y="144" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" font-weight="700" fill="#59636E">SOC · AI · LINUX</text>
+    <!-- Status LED -->
+    <circle cx="182" cy="68" r="4" fill="#1A7F37">
+      <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Right Typography -->
+  <g font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <text x="364" y="110" font-size="68" font-weight="800" letter-spacing="-2.2" fill="url(#hword)">mop4r</text>
+    <text x="366" y="150" font-size="22" font-weight="600" fill="#1F2328">Embedded Linux ports, hardware reverse engineering &amp; local AI tooling.</text>
+    <text x="366" y="182" font-size="16" fill="#59636E">Porting Debian/Armbian to overlooked ARM boards and building zero-dependency CLI workflows.</text>
+
+    <!-- Focus pills -->
+    <g font-size="13.5" font-weight="600">
+      <rect x="366" y="206" width="152" height="34" rx="17" fill="#EAEFF5" stroke="#1A7F37" stroke-opacity="0.65"/>
+      <circle cx="386" cy="223" r="4.5" fill="#1A7F37"/>
+      <text x="399" y="228" fill="#1F2328">Embedded Linux</text>
+
+      <rect x="530" y="206" width="166" height="34" rx="17" fill="#EAEFF5" stroke="#6652E5" stroke-opacity="0.65"/>
+      <circle cx="550" cy="223" r="4.5" fill="#6652E5"/>
+      <text x="563" y="228" fill="#1F2328">Multi-AI Tooling</text>
+
+      <rect x="708" y="206" width="174" height="34" rx="17" fill="#EAEFF5" stroke="#C25934" stroke-opacity="0.65"/>
+      <circle cx="728" cy="223" r="4.5" fill="#C25934"/>
+      <text x="741" y="228" fill="#1F2328">Python · C · Shell</text>
+
+      <rect x="894" y="206" width="156" height="34" rx="17" fill="#EAEFF5" stroke="#0969DA" stroke-opacity="0.65"/>
+      <circle cx="914" cy="223" r="4.5" fill="#0969DA"/>
+      <text x="927" y="228" fill="#1F2328">GitHub since 2018</text>
+    </g>
+  </g>
+</svg>
